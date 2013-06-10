@@ -19,7 +19,6 @@ class AboutEmptyValues extends KoanSuite {
   }
 
   koan("An empty list can be represented by another nothing value: Nil") {
-    assert(List() === __)
     assert(List() === Nil)
   }
 
